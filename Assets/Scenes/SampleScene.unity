@@ -375,7 +375,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -842,7 +842,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1568709810
 GameObject:
@@ -1034,6 +1034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Samil_Upper_Floor_22.06.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044235686748313519, guid: de2570043aa6e444c8e6677a1c117db2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6389096016140766485, guid: de2570043aa6e444c8e6677a1c117db2,
         type: 3}

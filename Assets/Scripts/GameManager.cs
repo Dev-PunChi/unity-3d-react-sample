@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     public void UnityCall()
     {
 #if UNITY_WEBGL == true && UNITY_EDITOR == false
-    CallReact("Player1", 100);
+    CallReact("Sample User", Score);
 #endif
     }
 
@@ -36,14 +36,5 @@ public class GameManager : MonoBehaviour
     {
         Score++;
         UnityCall();
-    }
-
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }
